@@ -1,0 +1,25 @@
+.todo-list {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &__title {
+        font-size: 4rem;
+        user-select: none;
+        margin-bottom: 1rem;
+    }
+
+    &__btn {
+        padding: 0 1rem;
+        margin-left: 1rem;
+    }
+
+    &__ul {
+        margin-top: 2rem;
+    }
+
+    &__ul li {
+        font-size: 2rem;
+    }
+}
